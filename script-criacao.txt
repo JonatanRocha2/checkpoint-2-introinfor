@@ -1,0 +1,1 @@
+alias front="mkdir img css && touch index.html css/style.css"
