@@ -6,60 +6,33 @@
   box-sizing: border-box;
 }
 
-html {
+html, body {
   font-size: 10px;
   font-family: "Open Sans", sans-serif;
+  background: #abbaab;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.header {
-  background-color: #ffffff;
-  width: 100%;
+header {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.conteiner {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
 }
 
-.header img {
-  width: 200px;
+.logo {
+  width: 80px;
+  border-radius: 100%;
 }
 
-/* Create two unequal columns that floats next to each other */
-/* Left column */
-.leftcolumn {
-  float: left;
-  width: 75%;
-}
-
-/* Right column */
-.rightcolumn {
-  float: left;
-  width: 25%;
-  padding-left: 20px;
-}
-
-.cardImg img {
-  width: 100%;
-}
-
-/* Add a card effect for articles */
-.card {
-  background-color: white;
-  padding: 20px;
-  margin-top: 20px;
-}
-
-/* Clear floats after the columns */
-.content:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Footer */
-.footer {
-  padding: 20px;
+h1 {
   text-align: center;
-  background: #ddd;
-  margin-top: 20px;
+  margin: 1%;
+}
+
+h3 {
+  margin: 4%;
 }
