@@ -24,19 +24,6 @@ header {
     font-weight: bold;
 }
 
-<<<<<<< HEAD
-
-
-=======
-.header {
-    background-color: #000000;
-}
-
-nav.navbar {
-    position: sticky;
-
-}
->>>>>>> 9d3d743692ef87bf2c1f8b06140f0b88d9cd0919
 .conteiner {
     display: flex;
 }
@@ -57,8 +44,7 @@ nav.navbar {
 
 .nav-item:hover {
     color: red;
-    transform: scale(1.05);
-    
+    transform: scale(1.05);    
 }
 
 .btn {
