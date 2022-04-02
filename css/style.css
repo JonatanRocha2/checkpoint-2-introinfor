@@ -73,12 +73,14 @@ h4  {
 h5  {
     font-weight: bold;
 }
+
 h6 {
     font-weight: bold;
     color: #ff0000;
 }
+
 .containerBackground {
-    background-color: rgb(155, 155, 155);
+    background-color: rgb(227, 224, 224);
 }
 
 .cover {
@@ -117,6 +119,7 @@ h1 {
 
 h3 {
     margin: 4%;
+    color: #000000;
 }
 
 /*  Menu Lateral */
