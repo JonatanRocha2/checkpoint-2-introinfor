@@ -1,318 +1,276 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <title>DH News</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <title>DH News</title>
 </head>
+<body>
+  
+  <header>
 
-<body  id="dev">
-
-    <header>
-
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-
-                <a class="navbar-brand" href="#"> <img class="logo" src="img/logo.png" alt=""></a>
-
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                
-                <div class="collapse navbar-collapse" id="navbarScroll">
-                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page">Início</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#news">Notícias</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link active dropdown-toggle" href="#whoami" id="navbarScrollingDropdown"
-                                role="button" data-bs-toggle="dropdown" aria-expanded="false">Quem somos</a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                                <li><a class="dropdown-item" href="#">Contato</a></li>
-                                <li><a class="dropdown-item" href="#">Mídias Sociais</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Sobre</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Digite sua pesquisa"
-                            aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Procurar</button>
-                    </form>
-                </div>
-            </div>
-        </nav>
-
-    </header>
-
-
-    <h1 id="news"><img class="logo" src="img/logo.png" alt="">Principais notícias do dia</h1>
-
-    <section class="conteiner">
-
-        <div class="col-sm-9 p-3 border containerBackground">
-
-            <div class="card mb-3 cover" id="paradigmas">
-                <img src="img/paradigmaProgramacao.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Paradigmas da Programação</h5>
-                    <h6>Aula 13</h6>
-                    <p class="card-text">Um paradigma, por definição, é apresentado como: um exemplo que
-                        serve como modelo, um padrão a ser seguido. Sendo assim, um
-                        paradigma de programação pode ser definido como sendo um modelo,
-                        padrão ou estilo ao qual linguagens de programação podem seguir.
-                        Para compreender o conceito de paradigmas de programação, usaremos
-                        uma analogia mais próxima da vida prática. Imagine que, para
-                        resolver um problema, você pode optar por diferentes soluções. Todas
-                        elas, afinal, servirão ao mesmo propósito, mas cada uma delas
-                        exigirá diferentes esforços e diferentes maneiras de pensar
-                        logicamente a resolução deste mesmo problema. Se você precisa, por
-                        exemplo, esquentar uma determinada quantidade de água, pode fazê-lo
-                        tanto no fogão quanto no seu forno micro-ondas. Em programação,
-                        também podemos recorrer a diferentes metodologias para alcançar um
-                        mesmo objetivo. A estas metodologias, damos o nome de paradigmas.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-
-                    <p>Responsável: <a href="#joao">João Matheus</a></p>
-                    <p>Fonte: <a
-                            href="https://guia.dev/pt/pillars/languages-and-tools/programming-paradigms.html">GuiaDev</a>
-                    </p>
-                </div>
-            </div>
-
-            <div class="card mb-3 cover" id="virtualizacao">
-                <img src="" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Virtualização</h5>
-                    <h6>Aula 14</h6>
-                    <p class="card-text">Virtualización es el acto de crear una versión virtual (en lugar de real) de algo,
-                        incluida la simulación de una plataforma de hardware , un sistema operativo , un dispositivo de
-                        almacenamiento o recursos de red.
-            
-                        La virtualización comenzó en la década de 1960 como un método para dividir lógicamente los recursos del
-                        sistema proporcionados por las computadoras centrales entre diferentes aplicaciones. Desde entonces, el
-                        significado del término se ha ampliado.
-            
-                        Es la tecnología central de los centros de datos y esencialmente transforma, bajo ciertas condiciones, un
-                        servidor físico en múltiples servidores virtuales.
-                         Los servidores virtuales creados con virtualización
-                        ofrecen un entorno similar a un servidor físico y optimizan el uso de los recursos, independizando las
-                        aplicaciones del hardware. La razón principal dada por las organizaciones para hacer uso de la
-                        virtualización ha sido reducir los costos de hardware, mejorar la condición de recuperación ante desastres y
-                        ahorrar espacio para los centros de datos. </p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-
-                    <p>Responsável: <a href="#karber">Karber</a></p>
-                    <p>Fonte: <a
-                            href="https://guia.dev/pt/pillars/languages-and-tools/programming-paradigms.html">GuiaDev</a>
-                    </p>
-                </div>
-            </div>
-
-            <div class="card mb-3 cover">
-                <img src="img/paradigmaProgramacao.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Redes de computadores</h5>
-                    <h6>Aula 16</h6>
-                    <p class="card-text">Um paradigma, por definição, é apresentado como: um exemplo que
-                        serve como modelo, um padrão a ser seguido. Sendo assim, um
-                        paradigma de programação pode ser definido como sendo um modelo,
-                        padrão ou estilo ao qual linguagens de programação podem seguir.
-                        Para compreender o conceito de paradigmas de programação, usaremos
-                        uma analogia mais próxima da vida prática. Imagine que, para
-                        resolver um problema, você pode optar por diferentes soluções. Todas
-                        elas, afinal, servirão ao mesmo propósito, mas cada uma delas
-                        exigirá diferentes esforços e diferentes maneiras de pensar
-                        logicamente a resolução deste mesmo problema. Se você precisa, por
-                        exemplo, esquentar uma determinada quantidade de água, pode fazê-lo
-                        tanto no fogão quanto no seu forno micro-ondas. Em programação,
-                        também podemos recorrer a diferentes metodologias para alcançar um
-                        mesmo objetivo. A estas metodologias, damos o nome de paradigmas.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    <p>Fonte: <a
-                            href="https://guia.dev/pt/pillars/languages-and-tools/programming-paradigms.html">GuiaDev</a>
-                    </p>
-                </div>
-            </div>
-
-            <div class="card mb-3 cover">
-                <img src="img/paradigmaProgramacao.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Internet</h5>
-                    <h6>Aula 17</h6>
-                    <p class="card-text">Um paradigma, por definição, é apresentado como: um exemplo que
-                        serve como modelo, um padrão a ser seguido. Sendo assim, um
-                        paradigma de programação pode ser definido como sendo um modelo,
-                        padrão ou estilo ao qual linguagens de programação podem seguir.
-                        Para compreender o conceito de paradigmas de programação, usaremos
-                        uma analogia mais próxima da vida prática. Imagine que, para
-                        resolver um problema, você pode optar por diferentes soluções. Todas
-                        elas, afinal, servirão ao mesmo propósito, mas cada uma delas
-                        exigirá diferentes esforços e diferentes maneiras de pensar
-                        logicamente a resolução deste mesmo problema. Se você precisa, por
-                        exemplo, esquentar uma determinada quantidade de água, pode fazê-lo
-                        tanto no fogão quanto no seu forno micro-ondas. Em programação,
-                        também podemos recorrer a diferentes metodologias para alcançar um
-                        mesmo objetivo. A estas metodologias, damos o nome de paradigmas.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    <p>Fonte: <a
-                            href="https://guia.dev/pt/pillars/languages-and-tools/programming-paradigms.html">GuiaDev</a>
-                    </p>
-                </div>
-            </div>
-
-            <div class="card mb-5 cover" id="security">
-                <img src="img/stuxnet.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h4 class="card-title">Segurança da Informação</h4>
-                    <h6>Aula 21</h6>
-                    <p class="card-text">Milhões de bits e bytes de informação circulam na internet diariamente. Nunca na história tivemos uma ferramenta tão democrática na hora de publicar e de consumir conteúdo. Mas como tudo tem seu limite, talvez seja o momento de repensar aquilo que você envia para a grande rede. Saiba o que é segurança da informação e por que deve se preocupar com seus dados.</p>
-                    <h5>O que é segurança da informação?</h5>
-                    <p>A segurança da informação é aquele conceito por trás da defesa dos dados, detalhes e afins para assegurar que eles estejam acessíveis somente aos seus responsáveis de direito ou as pessoas às quais foram enviados.
-                        Por exemplo, imagine uma grande corporação multinacional, com projetos em várias frentes e participando de várias concorrências governamentais. É natural e saudável que esses dados sejam sigilosos, mas sempre existe o risco de uma ou outra informação vazar. Quando isso acontece, a perda pode ser irreparável.
-                        E essas informações que, de uma forma ou de outra, vão parar nas mãos erradas, raramente chegam a esse destino indesejado sem a intervenção de um usuário final. Nem todo mundo percebe, mas um simples “encaminhar” no cliente de e-mail para a pessoa errada pode culminar no envio de dados restritos que possivelmente serão usados contra essa pessoa ou empresa. Nunca se sabe onde eles vão chegar.
-                        Em uma empresa, a segurança da informação nada mais é do que as políticas, processos e métodos que devem ser empregados para que a circulação de dados e informações seja segura e controlada, evitando que pessoas indesejadas façam uso ou ao menos tenham acesso a essas informações.
-                        Ter um departamento de TI, a tal Tecnologia da Informação, preparado para dar conta da segurança da informação é fundamental. Já existem ferramentas variadas que permitem evitar maiores problemas e garantir a integridade e a confidencialidade da informação, o que em última instância é o desejo primeiro das empresas.
-                        A informação só estará segura quando usuários e profissionais de TI agirem em consonância, colocando em prática as melhores maneiras para evitar riscos futuros.
-                        Acima de tudo, segurança da informação diz respeito a como as pessoas usam as informações que chegam até elas. E não há dúvida quanto a isso: seja um e-mail particular ou um relatório sobre uma grande venda, nada pode escapar do ecossistema de proteção criado para aquela pessoa. Portanto, é bom ficar de olho.</p>
-                    <h5>E quanto às informações pessoais?</h5>
-                    <p>A segurança da informação não está restrita apenas a dados empresariais. Mais que nunca, usuários comuns, que usam a internet apenas para conversar com amigos ou familiares pelas redes sociais, também devem tomar cuidado ao navegar na rede. A exposição de dados sensíveis — seja um nome completo, um documento ou mesmo qual o banco que usa — é meio caminho andado para fraudadores aplicarem golpes de roubo de identidade.</p>
-
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-
-                    <p>Responsável: <a href="#antonio">Antonio  Mesquita</a></p>
-                    <p>Fonte: <a href="https://tecnoblog.net/responde/o-que-e-seguranca-da-informacao/">Tecnoblog</a></p>
-                </div>
-            </div>
-
-            <div class="card mb-3 cover" id="etica">
-                <img src="img/etica.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Ética na computação</h5>
-                    <h6>Aula 22</h6>
-                    <p class="card-text">Ética aplicada esta relacionada com a conduta diária de uma pessoa,
-                        e conseqüentemente de um profissional, inclusive em Informática. A
-                        Ética profissional esta relacionada com a conduta da pessoa engajada
-                        na pratica de uma profissão particular. Na maioria das profissões,
-                        inclusive na área de Informática, a Ética deve ser abrangida nos
-                        dois aspectos, na conduta da pessoa como Ser Humano bem como também
-                        na conduta do Ser Profissional.
-                         <br> 
-                        “Um pequeno Código de Conduta paraÁrea de Informática”
-                        <br>
-                        <ul>
-                            <li>Evitar danos a terceiros,</li>
-                            <li>Conhecer e respeitar as leis existentes, relativas ao trabalho profissional </li>
-                            <li>Respeitar a privacidade de terceiros</li>
-                            <li>Ser honesto e digno de confiança, e
-                                Articular a responsabilidade social de membros de uma organização e encorajar a aceitação completa das suas responsabilidades.</li>
-                            <li>Não interferir no trabalho de computação de outra pessoa.</li>
-                            <li>Não interferir nos arquivos de outra pessoa</li>
-                            <li>Não usar o computador para roubar</li>
-                            <li>Não usar o computador para dar falso testemunho</li>
-                            <li>Não usar software pirateado</li> <!--Eu uso e recomendo kkkk-->
-                            <li>Não usar recursos de computacionais  de outras pessoas</li>
-                            <li>Não se apropriar do trabalho intelectual de outra pessoa</li>
-                            <li>Refletir sobre as conseqüências sociais do que escreve</li>
-                            <li>Usar o computador de maneira que mostre consideração e respeito ao interlocutor.</li>
-                        </ul></p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-
-                    <p>Responsável: <a href="#lucas">Lucas Gabriel</a></p>
-                    <p>Fonte: <a
-                            href="https://guia.dev/pt/pillars/languages-and-tools/programming-paradigms.html">GuiaDev</a>
-                    </p>
-                </div>
-            </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">      
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"> <img class="logo" src="img/logo.png" alt=""> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Notícias</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Quem somos</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="#">Contato</a></li>
+                <li><a class="dropdown-item" href="#">Mídias Sociais</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Sobre</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Digite sua pesquisa" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Procurar</button>
+          </form>
         </div>
+      </div>
+    </nav>
 
-        <div class="col-3 bg-lateral p-3 border">
-            <h3 id="whoami">Sobre o grupo</h3>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item hover"><a class="listStyle" href="#dev">Jonatan Rocha</a></li>
-                <li class="list-group-item hover"><a class="listStyle" href="#security">Antonio Mesquita</a></li>
-                <li class="list-group-item hover"><a class="listStyle" href="#virtualizacao">Karber</a></li>
-                <li class="list-group-item hover"><a class="listStyle" href="#etica">Lucas Gabriel</a></li>
-                <li class="list-group-item hover">José Lopes</li>
-                <li class="list-group-item hover"><a class="listStyle" href="#paradigmas">João Matheus</a></li>
-                <li class="list-group-item hover">Ítalo Gomes</li>
+  </header>
+  
+
+  <h1> <img class="logo" src="img/logo.png" alt=""> Principais notícias do dia</h1>
+
+  <section class="conteiner">
+
+    <div class="col-sm-9 bg-light p-3 border">
+
+      <div class="card mb-3">
+        <img  style ="margin: auto; width: 40%;" src="img/Paradigmas+de+Programação+Atuais (1).jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Paradigmas da Programação</h5>
+          <h6>Aula 13</h6>
+          <p class="card-text">
+            Paradigmas de Programação são a padronização de um modelo que visa a resolução de problemas e o que rege todas as linguagens de programação. Os paradigmas foram criadas para padronizar as linguagens e manter o código organizado e compreensível, Por essa razão os paradigmas geram maior portabilidade entre as linguagens, Algumas linguagens são multiparadigmas, ou seja, compreendem vários paradigmas dentro delas. Portanto, um paradigma não liga-se a uma linguagem de programação em si, mas as linguagens se adaptam aos paradigmas, Por exemplo, a linguagem JavaScript aceita os paradigmas funcional e orientado a objetos, Semelhantemente, a linguagem C++ suporta os paradigmas de linguagem imperativa e orientada a objetos.
+
+            <ul>
+              <li>progração imperativa</li>
+              <p>diz ao computador o que fazer, e a sequência por meio de instruções sucessivas</p>
+              <li>progração estruturada</li>
+              <p>usa três estruturas : condicional, sequência e estruturas de interação</p>
+              <li>progração orientada a objetos</li>
+              <p>usa objetos e a interação entre eles </p>
+              <li>progração declarativa </li>
+              <p>descreve o programa final que está sendo buscado-o que o programa deve fazer</p>
+              <li>progração lógica</li>
+              <p>baseia-se nos conceitos da lógica de matemática</p>
+              <li>progração funcional</li>
+              <p>baseada nos principios da matemática e no principio da função</p>
+              <li>progração multiparadigma</li>
+              <p>pode ser usada mais de um paradigma </p>
+              <li>progração em linguagem de domínio especifico</li>
+              <p>linguagens desenvolvidas para resolver problemas especificos</p>
             </ul>
+          </p>
 
-            <h3>Notícias mais acessadas</h3>
-            <ol class="list-group list-group-numbered">
-                <li class="list-group-item d-flex justify-content-between align-items-start hover">
-                    <div class="ms-2 me-auto">
-                        <div class="fw-bold titulo">Paradigmas de Programação</div>
-                        Aula 13
-                    </div>
-                    <span class="badge bg-primary rounded-pill">25+</span>
-                </li>
-
-                <li class="list-group-item d-flex justify-content-between align-items-start hover">
-                    <div class="ms-2 me-auto">
-                        <div class="fw-bold">Segurança da Informação</div>
-                        Aula 21
-                    </div>
-                    <span class="badge bg-primary rounded-pill">45+</span>
-                </li>
-
-                <li class="list-group-item d-flex justify-content-between align-items-start hover">
-                    <div class="ms-2 me-auto">
-                        <div class="fw-bold">Paradigmas de Programação</div>Aula 13
-                    </div>
-                    <span class="badge bg-primary rounded-pill">25+</span>
-                </li>
-            </ol>
-
-            <h3>Siga-nos!</h3>
-
-            <div class="list-group">
-                <a href="https://github.com/JonatanRocha2/checkpoint-2-introinfor" target="_blank"
-                    class="list-group-item list-group-item-action active" aria-current="true">
-                    Link do repositório desse projeto
-                </a>
-                <a href="https://github.com/JonatanRocha2" class="list-group-item list-group-item-action"
-                    target="_blank">GitHub
-                    Jonatan</a>
-                <a href="https://github.com/0xh377w4v3" class="list-group-item list-group-item-action" id="antonio" target="_blank">GitHub
-                    Antonio</a>
-                <a href="#" class="list-group-item list-group-item-action" id="lucas" target="_blank">GitHub Lucas</a>
-                <a href="#" class="list-group-item list-group-item-action" id="karber" target="_blank">GitHub Karber</a>
-                <a href="#" class="list-group-item list-group-item-action" id="jose" target="_blank">GitHub José</a>
-                <a href="#" class="list-group-item list-group-item-action" id="joao" target="_blank">GitHub João</a>
-                <a href="#" class="list-group-item list-group-item-action" id="italo" target="_blank">GitHub Ítalo</a>
-            </div>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <p>Fonte: <a href="https://blog.cod3r.com.br/paradigmas-de-programacao/">coder</a> </p>
         </div>
-    </section>
+      </div>
+      <div class="card mb-3">
+        <img src="img/paradigmaProgramacao.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Paradigmas da Programação</h5>
+          <h6>Aula 13</h6>
+          <p class="card-text">Um paradigma, por definição, é apresentado como: um exemplo que
+            serve como modelo, um padrão a ser seguido. Sendo assim, um
+            paradigma de programação pode ser definido como sendo um modelo,
+            padrão ou estilo ao qual linguagens de programação podem seguir.
+            Para compreender o conceito de paradigmas de programação, usaremos
+            uma analogia mais próxima da vida prática. Imagine que, para
+            resolver um problema, você pode optar por diferentes soluções. Todas
+            elas, afinal, servirão ao mesmo propósito, mas cada uma delas
+            exigirá diferentes esforços e diferentes maneiras de pensar
+            logicamente a resolução deste mesmo problema. Se você precisa, por
+            exemplo, esquentar uma determinada quantidade de água, pode fazê-lo
+            tanto no fogão quanto no seu forno micro-ondas. Em programação,
+            também podemos recorrer a diferentes metodologias para alcançar um
+            mesmo objetivo. A estas metodologias, damos o nome de paradigmas.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <p>Fonte: <a href="https://guia.dev/pt/pillars/languages-and-tools/programming-paradigms.html">GuiaDev</a> </p>
+        </div>
+      </div>
+      <div class="card mb-3">
+        <img src="img/paradigmaProgramacao.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Paradigmas da Programação</h5>
+          <h6>Aula 13</h6>
+          <p class="card-text">Um paradigma, por definição, é apresentado como: um exemplo que
+            serve como modelo, um padrão a ser seguido. Sendo assim, um
+            paradigma de programação pode ser definido como sendo um modelo,
+            padrão ou estilo ao qual linguagens de programação podem seguir.
+            Para compreender o conceito de paradigmas de programação, usaremos
+            uma analogia mais próxima da vida prática. Imagine que, para
+            resolver um problema, você pode optar por diferentes soluções. Todas
+            elas, afinal, servirão ao mesmo propósito, mas cada uma delas
+            exigirá diferentes esforços e diferentes maneiras de pensar
+            logicamente a resolução deste mesmo problema. Se você precisa, por
+            exemplo, esquentar uma determinada quantidade de água, pode fazê-lo
+            tanto no fogão quanto no seu forno micro-ondas. Em programação,
+            também podemos recorrer a diferentes metodologias para alcançar um
+            mesmo objetivo. A estas metodologias, damos o nome de paradigmas.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <p>Fonte: <a href="https://guia.dev/pt/pillars/languages-and-tools/programming-paradigms.html">GuiaDev</a> </p>
+        </div>
+      </div>
+      <div class="card mb-3">
+        <img src="img/paradigmaProgramacao.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Paradigmas da Programação</h5>
+          <h6>Aula 13</h6>
+          <p class="card-text">Um paradigma, por definição, é apresentado como: um exemplo que
+            serve como modelo, um padrão a ser seguido. Sendo assim, um
+            paradigma de programação pode ser definido como sendo um modelo,
+            padrão ou estilo ao qual linguagens de programação podem seguir.
+            Para compreender o conceito de paradigmas de programação, usaremos
+            uma analogia mais próxima da vida prática. Imagine que, para
+            resolver um problema, você pode optar por diferentes soluções. Todas
+            elas, afinal, servirão ao mesmo propósito, mas cada uma delas
+            exigirá diferentes esforços e diferentes maneiras de pensar
+            logicamente a resolução deste mesmo problema. Se você precisa, por
+            exemplo, esquentar uma determinada quantidade de água, pode fazê-lo
+            tanto no fogão quanto no seu forno micro-ondas. Em programação,
+            também podemos recorrer a diferentes metodologias para alcançar um
+            mesmo objetivo. A estas metodologias, damos o nome de paradigmas.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <p>Fonte: <a href="https://guia.dev/pt/pillars/languages-and-tools/programming-paradigms.html">GuiaDev</a> </p>
+        </div>
+      </div>
+      <div class="card mb-3">
+        <img src="img/paradigmaProgramacao.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Paradigmas da Programação</h5>
+          <h6>Aula 13</h6>
+          <p class="card-text">Um paradigma, por definição, é apresentado como: um exemplo que
+            serve como modelo, um padrão a ser seguido. Sendo assim, um
+            paradigma de programação pode ser definido como sendo um modelo,
+            padrão ou estilo ao qual linguagens de programação podem seguir.
+            Para compreender o conceito de paradigmas de programação, usaremos
+            uma analogia mais próxima da vida prática. Imagine que, para
+            resolver um problema, você pode optar por diferentes soluções. Todas
+            elas, afinal, servirão ao mesmo propósito, mas cada uma delas
+            exigirá diferentes esforços e diferentes maneiras de pensar
+            logicamente a resolução deste mesmo problema. Se você precisa, por
+            exemplo, esquentar uma determinada quantidade de água, pode fazê-lo
+            tanto no fogão quanto no seu forno micro-ondas. Em programação,
+            também podemos recorrer a diferentes metodologias para alcançar um
+            mesmo objetivo. A estas metodologias, damos o nome de paradigmas.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <p>Fonte: <a href="https://guia.dev/pt/pillars/languages-and-tools/programming-paradigms.html">GuiaDev</a> </p>
+        </div>
+      </div>
+      <div class="card mb-3">
+        <img src="img/paradigmaProgramacao.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Paradigmas da Programação</h5>
+          <h6>Aula 13</h6>
+          <p class="card-text">Um paradigma, por definição, é apresentado como: um exemplo que
+            serve como modelo, um padrão a ser seguido. Sendo assim, um
+            paradigma de programação pode ser definido como sendo um modelo,
+            padrão ou estilo ao qual linguagens de programação podem seguir.
+            Para compreender o conceito de paradigmas de programação, usaremos
+            uma analogia mais próxima da vida prática. Imagine que, para
+            resolver um problema, você pode optar por diferentes soluções. Todas
+            elas, afinal, servirão ao mesmo propósito, mas cada uma delas
+            exigirá diferentes esforços e diferentes maneiras de pensar
+            logicamente a resolução deste mesmo problema. Se você precisa, por
+            exemplo, esquentar uma determinada quantidade de água, pode fazê-lo
+            tanto no fogão quanto no seu forno micro-ondas. Em programação,
+            também podemos recorrer a diferentes metodologias para alcançar um
+            mesmo objetivo. A estas metodologias, damos o nome de paradigmas.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <p>Fonte: <a href="https://guia.dev/pt/pillars/languages-and-tools/programming-paradigms.html">GuiaDev</a> </p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-3 bg-light p-3 border">
+      <h3>Sobre o grupo</h3>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Jonatan Rocha</li>
+        <li class="list-group-item">Antônio Mesquita</li>
+        <li class="list-group-item">Karber</li>
+        <li class="list-group-item">Lucas Gabriel</li>
+        <li class="list-group-item">José Lopes</li>
+        <li class="list-group-item">João Mateus</li>
+        <li class="list-group-item">Ítalo Gomes</li>
+      </ul>
+
+      <h3>Notícias mais acessadas</h3>
+      <ol class="list-group list-group-numbered">
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">Paradigmas de Programação</div>
+            Aula 13
+          </div>
+          <span class="badge bg-primary rounded-pill">25+</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">Paradigmas de Programação</div>
+            Aula 13
+          </div>
+          <span class="badge bg-primary rounded-pill">25+</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">Paradigmas de Programação</div>
+            Aula 13
+          </div>
+          <span class="badge bg-primary rounded-pill">25+</span>
+        </li>
+      </ol>
+
+      <h3>Siga-nos!</h3>
+      <div class="list-group">
+        <a href="https://github.com/JonatanRocha2/checkpoint-2-introinfor" target="_blank" class="list-group-item list-group-item-action active" aria-current="true">
+          Link do repositório desse projeto
+        </a>
+        <a href="https://github.com/JonatanRocha2" class="list-group-item list-group-item-action" target="_blank">GitHub Jonatan</a>
+        <a href="https://github.com/Matheuslazaro13" class="list-group-item list-group-item-action">GitHub Antônio</a>
+        <a href="#" class="list-group-item list-group-item-action">GitHub Lucas</a>
+        <a href="#" class="list-group-item list-group-item-action">GitHub Karber</a>
+        <a href="#" class="list-group-item list-group-item-action">GitHub José</a>
+        <a href="#" class="list-group-item list-group-item-action">GitHub João</a>
+        <a href="#" class="list-group-item list-group-item-action">GitHub Ítalo</a>        
+      </div>
+    </div>
+</section>
 
     <footer>
-        <div class="card text-center">
-            <div class="card-header">
-                <img src="img/logo_dh.svg" alt="">
-            </div>
-            <div class="card-body">
-                <h5 class="card-title">Segundo checkpoint de Introdução a Informática</h5>
-                <p class="card-text">Turma 02 Noturno</p>
-                <a href="#" class="btn btn-primary">Voltar ao Início</a>
-            </div>
-            <div class="card-footer text-muted">
-                2 days ago
-            </div>
+      <div class="card text-center">
+        <div class="card-header">
+          <img src="img/logo_dh.svg" alt="">
         </div>
+        <div class="card-body">
+          <h5 class="card-title">Segundo checkpoint de Introdução a Informática</h5>
+          <p class="card-text">Turma 02 Noturno</p>
+          <a href="#" class="btn btn-primary">Voltar ao Início</a>
+        </div>
+        <div class="card-footer text-muted">
+          2 days ago
+        </div>
+      </div>
     </footer>
-</body>
 
+</body>
 </html>
