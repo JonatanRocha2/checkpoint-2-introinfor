@@ -1,16 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap");
-@import url('http://fonts.cdnfonts.com/css/cedora');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@400;500;600;700&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'cedora';
+    font-family: 'Anek Malayalam';
 }
 
 html,  body {
     font-size: 10px;
-    font-family: "Open Sans", sans-serif;
     background: #484848;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #ffffff, #ffffff);
